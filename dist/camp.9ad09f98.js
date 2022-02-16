@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./images/main-section.jpg":[["main-section.b3bb191b.jpg","images/main-section.jpg"],"images/main-section.jpg"],"./images/mbti_background.png":[["mbti_background.1cb89a3a.png","images/mbti_background.png"],"images/mbti_background.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./images/main-section.jpg":[["main-section.b3bb191b.jpg","images/main-section.jpg"],"images/main-section.jpg"],"./images/mbti_background.png":[["mbti_background.1cb89a3a.png","images/mbti_background.png"],"images/mbti_background.png"],"./images/review_1.jpeg":[["review_1.8be1d49b.jpeg","images/review_1.jpeg"],"images/review_1.jpeg"],"./images/review_2.jpeg":[["review_2.2bbbb39b.jpeg","images/review_2.jpeg"],"images/review_2.jpeg"],"./images/review_3.jpeg":[["review_3.acef847a.jpeg","images/review_3.jpeg"],"images/review_3.jpeg"],"./images/footer_background.jpeg":[["footer_background.d97386d4.jpeg","images/footer_background.jpeg"],"images/footer_background.jpeg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57790" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52268" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
